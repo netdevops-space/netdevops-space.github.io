@@ -98,7 +98,7 @@ analytics:
 # Site Author
 author:
   name             : "Emil Garipov"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bio_logo.jpg"
   bio              : "I am an **amazing** person."
   location         : #"Somewhere"
   email            :
@@ -149,6 +149,7 @@ footer:
 include:
   - .htaccess
   - _pages
+  - ["_pages"]
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
